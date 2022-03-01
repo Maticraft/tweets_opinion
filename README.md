@@ -1,6 +1,6 @@
 # tweets_opinion
 
-Package consists of twitter api, which collects the stream of tweets with given filter (using tweepy) and the classifies each tweet's opinion as positive or negative (using the pretrained LSTM model). Subsequently, the histogram is plotted after each 100 of tweets. To use this scripts, please insert your own tokens in the twitterCredentials file. 
+Package consists of twitter api, which collects the stream of tweets with given filter (using tweepy) and the classifies each tweet's opinion as positive or negative (using the pretrained LSTM model). Subsequently, the histogram is plotted after each 100 of tweets. To use those scripts, please insert your own tokens in the twitterCredentials file. 
 
 The LSTM model is implemented with pytorch and trained on the data from: https://www.kaggle.com/kazanova/sentiment140.
 
